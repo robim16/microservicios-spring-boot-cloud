@@ -7,7 +7,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-@EnableEurekaClient
 public class UsuarioServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UsuarioServiceApplication.class, args);
